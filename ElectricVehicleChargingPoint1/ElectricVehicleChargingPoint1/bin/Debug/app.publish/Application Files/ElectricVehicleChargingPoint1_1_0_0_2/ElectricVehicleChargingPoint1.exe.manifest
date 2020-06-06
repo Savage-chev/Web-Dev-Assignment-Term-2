@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ElectricVehicleChargingPoint1.exe" version="1.0.0.2" publicKeyToken="00f6ef8627108459" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ElectricVehicleChargingPoint1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ElectricVehicleChargingPoint1.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ElectricVehicleChargingPoint1.exe" size="114608">
+      <assemblyIdentity name="ElectricVehicleChargingPoint1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>6wHc/B2PaTyfcGuJ9gLLEXgtdqQfQnBEoWYsTmYowkw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ElectricVehicleChargingPoint1.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ISDADS\sye543" issuerKeyHash="fa4d979a81550c56d9f36fae0c5d47b6b053e9d7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3Xnl9o9Xp5SO5g6L+rTZ2MKFtg4SpQFME5iK5ySMrMQ=</DigestValue></Reference></SignedInfo><SignatureValue>o6lB056v8nc/Gclz85n3fpTBUKPnbSy0CYdHjt1jeDsAhsHd9OS3jgLWfNDjQrAap5jK4PptLIIGVycVPU/jIHgBDABpZKfTfiXEFH9S5za1GW7IDmF3cQCi3Q5wtXWItT3ywIyjk91AX+UITaSxCpxORYLXVd8YtjGKEwiSmv8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pbGzfXgeR3TYbYGuDKG/2mzX5MTQjNS19O9t3O1Y7/xB2LmLxlWepujL/WpFYOnnUYbcPlNHTYAFTkZAlUOIUCeqQvRpp35jgysMVvOM2VTdKaKNdreCVEwC8cmTGwkBPzPIxvV243ZU/fpQS2/SA8jt/knZZZYwKq4w8cZqrck=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c4ac8c24e78a98134c01a5120eb685c2d8d9b4fa8b0ee68e94a7578ff6e579dd" Description="" Url=""><as:assemblyIdentity name="ElectricVehicleChargingPoint1.exe" version="1.0.0.2" publicKeyToken="00f6ef8627108459" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ISDADS\sye543</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>78rybZumqdWsRXp8FNLrA9DJsqzVEEhXudt4ilssITA=</DigestValue></Reference></SignedInfo><SignatureValue>U5QigUEIui91uoOsHjKieGPz17ULSpr3RsoMEbdxXJMzhwah8it94ZPUX1sFisKu/VypGTtsHc009/tI6xZaMH2ufbbSDJ1pi2YQ4buBAs6OrhaOGxmhvGcli8uUr6G0YkWhCl/+4D/WTKeN+w/6tZXMO1G4J7SfPYffjR2BI0E=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pbGzfXgeR3TYbYGuDKG/2mzX5MTQjNS19O9t3O1Y7/xB2LmLxlWepujL/WpFYOnnUYbcPlNHTYAFTkZAlUOIUCeqQvRpp35jgysMVvOM2VTdKaKNdreCVEwC8cmTGwkBPzPIxvV243ZU/fpQS2/SA8jt/knZZZYwKq4w8cZqrck=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQSgVKNyGoqrhItqO1UD8aMjANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoASQBTAEQAQQBEAFMAXABzAHkAZQA1ADQAMzAeFw0yMDA0MjgwNDU1MDhaFw0yMTA0MjgxMDU1MDhaMCUxIzAhBgNVBAMeGgBJAFMARABBAEQAUwBcAHMAeQBlADUANAAzMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQClsbN9eB5HdNhtga4Mob/abNfkxNCM1LX0723c7Vjv/EHYuYvGVZ6m6Mv9akVg6edRhtw+U0dNgAVORkCVQ4hQJ6pC9GmnfmODKwxW84zZVN0poo12t4JUTALxyZMbCQE/M8jG9XbjdlT9+lBLb9IDyO3+SdllljAqrjDxxmqtyQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAFi6tsX3trQ3dzf/+MJOLZ+PxBLa/jnHCYY5I+wLgKJbNo6Nv9+UVnCdQkKQrsHpAuqF91YgJ+Jumie54TyLNS/NQP8jwpAIcpB+P8Jqc0T3eg0UXP+iT7VDmWmoNfixaDZCaKaN5rJoc1nNBFzUxyJvXeb2CT1zoh8iHXlCndfo</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
