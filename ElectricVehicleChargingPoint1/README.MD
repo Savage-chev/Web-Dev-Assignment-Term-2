@@ -1,4 +1,4 @@
-#PROJECT TITLE: Electric Vehicle Charging Point
+#PROJECT TITLE: Electric Vehicle Charging Point#
 
 ###PURPOSE OF PROJECT: Unicersity - Web Development & HCI Project
 ###IDE: Visual Studio
